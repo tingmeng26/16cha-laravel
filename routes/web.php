@@ -24,3 +24,5 @@ Route::get('/', function () {
 // });
 
 Route::get('/checkStatus','Member@checkStatus');
+
+Route::get('/test','Member@test');
