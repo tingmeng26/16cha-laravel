@@ -15,7 +15,7 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
+  return view('welcome');
 });
 
 
@@ -23,6 +23,8 @@ Route::get('/', function () {
 //     return 'hi';
 // });
 
-Route::get('/checkStatus','Member@checkStatus');
+Route::get('/checkStatus', 'Member@checkStatus');
 
-Route::get('/test','Member@test');
+Route::get('/test', 'Member@test');
+
+Route::get('/testUser', 'Member@testUser');
